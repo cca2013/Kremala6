@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/category_array"
+        android:prompt="@string/category_prompt" />
+ 
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:prompt="@string/level_prompt"  />
+    
+ 
+    
+    <Button android:id="@+id/btnGameScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/backtogame"
+            android:layout_marginTop="15dip"/>
+</LinearLayout>

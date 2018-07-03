@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "I:\\Applications\\androidApps\\Kremala6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\anastasiadis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\7584c5473852a239cc5b42af9b335db8\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "I:\\Applications\\androidApps\\Kremala6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\anastasiadis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\7584c5473852a239cc5b42af9b335db8\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "I:\\Applications\\androidApps\\Kremala6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\anastasiadis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\7584c5473852a239cc5b42af9b335db8\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "I:\\Applications\\androidApps\\Kremala6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\anastasiadis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\7584c5473852a239cc5b42af9b335db8\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "I:\\Applications\\androidApps\\Kremala6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\anastasiadis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\7584c5473852a239cc5b42af9b335db8\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "I:\\Applications\\androidApps\\Kremala6\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\anastasiadis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\7584c5473852a239cc5b42af9b335db8\\res\\anim\\abc_slide_out_top.xml"
+    }
+]

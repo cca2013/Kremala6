@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/app_back">
+
+ <TextView
+        android:id="@+id/lblgridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblgridView"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+ <!-- Child linear layout with horizontal orientation -->
+  <LinearLayout android:layout_width="fill_parent" 
+                      android:layout_height="wrap_content"
+  		      android:orientation="horizontal" android:background="#FFFFFF"
+  		      android:textColor="#000000"
+  		      
+  		      android:layout_marginTop="5dip">
+   
+      
+<GridView 
+    android:id="@+id/gridView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnWidth="30dp"
+    android:gravity="center"
+   android:layout_weight="1"
+    android:numColumns="auto_fit"
+    android:stretchMode="columnWidth" >
+</GridView>
+
+  
+</LinearLayout>
+
+ <LinearLayout android:layout_width="fill_parent" 
+               android:layout_height="wrap_content"
+  		       android:orientation="vertical" 
+  		              
+  		       android:textSize="12sp" 
+    			android:textColor="#ffffff"
+  		       android:layout_marginTop="0dip"> 
+  		      
+ <GridView 
+  
+    android:id="@+id/grid"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:columnWidth="200dp"
+ 	android:stretchMode="columnWidth"
+    android:numColumns="15"
+    android:verticalSpacing="0dp"
+    android:layout_weight="1"
+    android:textColor="#00ff00"
+    android:horizontalSpacing="0dp" >
+    
+</GridView>
+
+  <Button 
+        android:id="@+id/new_word_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
+        android:text="@string/new_word" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/timerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        
+        android:gravity="end"
+        android:textColor="#ffffff"
+        android:text="@string/timerVal" />
+
+    
+        <ImageView
+        android:id="@+id/kremala1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:scaleType="centerInside"
+        android:src="@drawable/kremala2" />
+        
+        
+</LinearLayout>
+        
+<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_below="@id/kremala1"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btnSettingsScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+           android:background="@android:color/transparent"
+        	android:textColor="@color/white"
+        	android:paddingLeft="5dip"
+            
+            android:text="@string/backtosettings" />
+        
+        <Button
+            android:id="@+id/btnUserScreen"
+            android:layout_weight="0.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:background="@android:color/transparent"
+            
+            android:paddingLeft="5dip"
+            
+        	android:textColor="@color/white"
+            android:text="@string/users" />
+
+		<Button
+            android:id="@+id/btnQuit"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+           android:background="@android:color/transparent"
+          
+            android:paddingLeft="5dip"
+            
+        	android:textColor="@color/white"
+            android:text="@string/quit" />
+		
+
+ </LinearLayout>
+ 
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KREMALA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="timerVal">00:00</string>
+    <string name="startButtonLabel">Start</string>
+    <string name="pauseButtonLabel">Pause</string>
+    <string name="resetButtonLabel">Reset Timer</string>
+    <string name="new_word">New word</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblgridView">Select one letter</string>
+     <string name="lblPassword">Δώστε την κρυμμένη λέξη εδώ</string>
+    <string name="enterLetterPoints">Enter a number</string>
+    <string name="letterpoints">Letter points</string>
+    <string name="backtogame">Back to game </string>
+    <string name="lblpassSameLetterPositions">Letter occurences</string>
+    <string name="sameLetterPositions"></string>
+    <string name="sameletter">Enter a number</string>
+    <string name="users">Switch user</string>
+    <string name="quit">Menu</string>
+    <string name="backtosettings">Settings</string>
+     <string name="category_prompt">Select category</string>
+      <string name="level_prompt">Select level</string>
+      <string name="spinner1lbl">Select category</string>
+      <string name="spinner2lbl">Select level</string>
+      
+      <string name="username">Your name</string>
+       <string name="lblusername">Player </string>
+        <string name="userscore">Score</string>
+        <string name="play">Play</string>
+        <string name="howto">How to play</string>
+        <string name="quit_game">Quit</string>
+        <string name="help_info">Kremala is a letter quizz game to find a word among categories that user can select.
+            \n\n Kremala is a multiplayer game. 
+            \nSwitch to next player  by tapping Switch player in the play game screen. \n\n
+            Kremalas point system. 
+            \n For every random word generated, points equal to lettersXletter points, are assigned.
+            Each letter is granted initial points,can be adjusted, using the  settings tap in the play game screen.
+            \nEvery good guess do not alter  word points 
+            \n Each wrong guess subtracts subsequent letter points, initially set.
+            \n The number of same letter that can be found within word can also be adjusted using the settings tap.
+             \n Maximum allowed wrong guesses are set to 5. 
+            \n\n 
+             Kremala is a time clocking game                   
+            \n Time passed since tapping to the first letter of a word, is also a point system factor. 
+             \nEach word has initial time left = lettersXletter points seconds/10 .
+             \n Every wrong guess  deducts  letter points in seconds/10 from the word score.
+            \n\n
+            Word count stops\n
+            When word is found, or time is lost, or attempts exchausted.
+            \n\n
+            Score
+            \n Your ten best scores will automatically be saved into the High Scores. \n\n Good Luck!</string>
+        
+        
+        
+        
+     <string-array name="category_array">  
+        <item>General</item>
+        <item>Animals</item>
+        <item>Science</item>
+        <item>Geography</item>
+        <item>History</item>
+    </string-array>
+     
+     
+</resources>

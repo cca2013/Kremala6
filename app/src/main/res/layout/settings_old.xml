@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/letterpoints"
+            android:textSize="20sp"
+            />
+    
+    
+    <EditText android:id="@+id/passLetterScore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterLetterPoints"
+            android:layout_marginBottom="10dip"/>
+    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblpassSameLetterPositions"
+        android:textSize="20sp"
+        />
+    <EditText android:id="@+id/passSameLetterPositions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sameletter"
+            android:layout_marginBottom="10dip"/>
+    
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:prompt="@string/category_prompt" />
+ 
+    
+    <Button android:id="@+id/btnGameScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/backtogame"
+            android:layout_marginTop="15dip"/>
+</LinearLayout>
